@@ -186,7 +186,6 @@ Implementation
     │
     ▼
 Timing / Utilization Analysis
-
 ```
 
 The project includes:
