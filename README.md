@@ -186,9 +186,7 @@ Implementation
     │
     ▼
 Timing / Utilization Analysis
-    │
-    ▼
-Linting
+
 ```
 
 The project includes:
