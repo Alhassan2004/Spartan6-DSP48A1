@@ -1,6 +1,6 @@
 # Spartan-6 DSP48A1 RTL Design & Verification
 
-## 📌 Overview
+## Overview
 
 This project implements a **Spartan-6 DSP48A1 slice** using **Verilog HDL**. The design models the internal datapath of the DSP48A1, including input registers, pre-adder/subtractor, multiplier, post-adder/subtractor, cascade paths, carry logic, and configurable pipeline stages.
 
@@ -10,7 +10,7 @@ The design was verified using a **self-checking testbench in QuestaSim** and tak
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 DSP48A1/
@@ -51,7 +51,7 @@ QuestaSim DO file used to compile, simulate, add waveform groups, and run the si
 
 ---
 
-## ⚙️ Configuration Parameters
+## Configuration Parameters
 
 The DSP48A1 module provides configurable parameters for pipeline stages and input selection:
 
@@ -76,7 +76,7 @@ These parameters control the number of pipeline stages and configurable datapath
 
 ---
 
-## 🧪 Verification
+## Verification
 
 The design was verified using a **self-checking Verilog testbench** in QuestaSim.
 
@@ -153,7 +153,7 @@ confirming that all directed verification cases passed successfully.
 
 ---
 
-## 🖥️ QuestaSim Simulation
+## QuestaSim Simulation
 
 The project includes a QuestaSim DO file that:
 
@@ -168,7 +168,7 @@ The simulation verified the reset operation and four directed DSP datapaths with
 
 ---
 
-## 🔧 Vivado Design Flow
+## Vivado Design Flow
 
 The design was taken through the following FPGA design flow:
 
@@ -202,11 +202,11 @@ The project uses a **100 MHz clock constraint** on the Basys 3 clock pin `W5`.
 
 ---
 
-## 🕒 Clock Constraint
+## Clock Constraint
 
 The XDC file defines a 100 MHz clock:
 
-## 🧹 Linting
+## Linting
 
 The RTL was linted using the default methodology and goals.
 
@@ -214,7 +214,7 @@ The RTL was linted using the default methodology and goals.
 
 ---
 
-## 🛠️ Tools Used
+## Tools Used
 
 * **Verilog HDL** — RTL design
 * **QuestaSim** — Functional simulation and verification
