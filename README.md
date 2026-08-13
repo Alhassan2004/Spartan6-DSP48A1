@@ -6,8 +6,6 @@ This project implements a **Spartan-6 DSP48A1 slice** using **Verilog HDL**. The
 
 The design was verified using a **self-checking testbench in QuestaSim** and taken through the **Vivado FPGA design flow**, including elaboration, synthesis, implementation, timing analysis, and linting.
 
-> **Note:** Although the RTL models the Spartan-6 DSP48A1 architecture, the design was targeted to a **7-series FPGA** using the `xc7a200tffg1156-3` device, resulting in mapping to a **DSP48E1** during synthesis.
-
 ---
 
 ## Project Structure
